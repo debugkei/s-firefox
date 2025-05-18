@@ -11,6 +11,7 @@ docker build -t firefox .
 ```sh
 docker run -it --rm -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY firefox
 ```
+To change the framerate, tinker with the Dockerfile, good luck!  
 
 ## Credits
 * [Docker](https://www.docker.com/) for containerization.
