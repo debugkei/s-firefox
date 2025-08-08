@@ -4,7 +4,7 @@ VNC version can be found [here](https://github.com/ivkei/s-firefox-vnc).
 
 ## Build
 ```sh
-docker build -t firefox .
+docker build -t firefox . # Or in directory with Dockerfile
 ```
 
 ## Run
